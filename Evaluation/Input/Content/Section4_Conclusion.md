@@ -1,0 +1,3 @@
+The PBPK model developed for mexiletine was able to accurately predict the time-profiles following i.v. and p.o. dosing of mexiletine in EM and PM phenotypes. Observed variability was generally larger than the predicted in population simulations. Depending on study population, smoking status or variation in CYP-phenotypes may lead to additional variability which might be not included in the PK-Sim ontogeny factor.
+
+The predicted fraction excreted in urine was similar to the fraction reported in the label (9% vs 10%). The predicted bioavailability was 85%, compared to the observed as per label of 90%.
