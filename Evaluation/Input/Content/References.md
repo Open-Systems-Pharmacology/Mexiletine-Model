@@ -1,6 +1,6 @@
 **Begg 1982** Begg, E., Chinwah, P., Webb, C., Day, R. & Wade, D. Enhanced metabolism of mexiletine after phenytoin administration. *British Journal of Clinical Pharmacology* **14**, 219–223 (1982).
 
-**Campbell 1978 ** Campbell NP, Kelly JG, Adgey AA, Shanks RG. Mexiletine in normal volunteers. *Br J Clin Pharmacol*. 1978;6(4):372-373.
+**Campbell 1978** Campbell NP, Kelly JG, Adgey AA, Shanks RG. Mexiletine in normal volunteers. *Br J Clin Pharmacol*. 1978;6(4):372-373.
 
 **DrugBank DB00379** (https://www.drugbank.ca/drugs/DB00379)
 
@@ -8,11 +8,11 @@
 
 **Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531.
 
-**Kusumoto 1998 ** Kusumoto M, Ueno K, Tanaka K, et al. Lack of pharmacokinetic interaction between mexiletine and omeprazole. *Ann Pharmacother*. 1998;32(2):182-184. 
+**Kusumoto 1998** Kusumoto M, Ueno K, Tanaka K, et al. Lack of pharmacokinetic interaction between mexiletine and omeprazole. *Ann Pharmacother*. 1998;32(2):182-184. 
 
 **Labbé 2000** Labbé L, O’Hara G, Lefebvre M, et al. Pharmacokinetic and pharmacodynamic interaction be mexiletine and propafenone in human beings. *Clin Pharmacol Ther*. 2000;68(1):44-57.
 
-**Mexiletine, Drugs.com** Mexiletine, Drugs.com, Website drugs.com/pro/mexiletine.html
+**Mexiletine, Drugs.com** Mexiletine, Drugs.com, Website https://www.drugs.com/pro/mexiletine.html
 
 **Pentikäinen 1984** Pentikainen P, Halinen M, Helin M. Pharmacokinetics of intravenous Mexiletine in patients with acute myocardial infarction. *J Cardiovasc Pharmacol*. 1984;6:1-6.
 
@@ -20,7 +20,7 @@
 
 **Pringle 1986** Pringle T, Fox J, McNeill J, et al. Dose independent pharmacokinetics of mexiletine in healthy volunteers. *Br J Clin Pharmacol*. 1986;21(3):319-321.
 
-**SmPC Namuscla** SmPC Namuscla 167 mg hard capsules, 2019, website medicines.org.uk/emc/product/9838/smpc
+**SmPC Namuscla** SmPC Namuscla 167 mg hard capsules, 2019, website https://www.medicines.org.uk/emc/product/9838/smpc
 
 **Begg 1982** Webb C, Day R, Chinwah P, Wade D, Begg E. Enhanced metabolism of mexiletine after phenytoin administration. *Br J Clin Pharmacol*. 2012;14(2):219-223. 
 
