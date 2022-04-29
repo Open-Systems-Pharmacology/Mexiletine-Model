@@ -1,6 +1,6 @@
 ### 2.2.1 In vitro and physico-chemical data
 
-A literature search was performed to collect available information on physico-chemical properties of mexiletine ([Table 1](#Table 1)).
+A literature search was performed to collect available information on physico-chemical properties of mexiletine, see [Table 1](#table-1).
 
 | **Parameter**                   | **Unit** | **Value**             | Source                            | **Description**                                              |
 | :------------------------------ | -------- | --------------------- | --------------------------------- | ------------------------------------------------------------ |
@@ -15,11 +15,11 @@ A literature search was performed to collect available information on physico-ch
 | Renal elimination<sup>+</sup>   | l/h      | 1.8<sup>+</sup> - 2.1 | [Labbé 2000](#5-references)       | Renal clearance                                              |
 | Ki CYP1A2<sup>+</sup>           | µmol/l   | 0.28                  | [Wei 1991](#5-references)         | CYP1A2 inhibition constant                                   |
 
-**Table 1:**<a name="Table 1"></a> Physico-chemical and *in-vitro* metabolization properties of mexiletine extracted from literature. *<sup>+</sup>: Value used in final model*
+**Table 1:**<a name="table-1"></a> Physico-chemical and *in-vitro* metabolization properties of mexiletine extracted from literature. *<sup>+</sup>: Value used in final model*
 
 ### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on mexiletine ([Table 2](#Table 2)).
+A literature search was performed to collect available clinical data on mexiletine, see [Table 2](#table-2).
 
 | **Source**           | Route | **Dose [mg]/**  **Schedule \*** | **Pop.**     | **Sex** | **N** | **Form.** | **Comment**                       |
 | -------------------- | ------------------------------- | ------------ | ------- | --------------------------------- | --------------------------------- | --------------------------------- | -------------------- |
@@ -33,4 +33,4 @@ A literature search was performed to collect available clinical data on mexileti
 | [Pentikäinen 1984](#5-references)<sup>+</sup> | i.v.  | 166.62                                   | acute myocardial  infarction | -       | 18    | solution  | acute myocardial  infarction |
 | [Joeres 1987](#5-references)<sup>+</sup>      | p.o.  | 200                                      | HV                           | -       | 1     | -         |                              |
 
-**Table 2:**<a name="Table 2"></a> Literature sources of clinical concentration data of mexiletine used for model development and validation. *\*: single dose unless otherwise specified; EM: extensive metabolizers; PM: poor metabolizers; <sup>+</sup>: Data used for final parameter identification*
+**Table 2:**<a name="table-2"></a> Literature sources of clinical concentration data of mexiletine used for model development and validation. *\*: single dose unless otherwise specified; EM: extensive metabolizers; PM: poor metabolizers; <sup>+</sup>: Data used for final parameter identification*
