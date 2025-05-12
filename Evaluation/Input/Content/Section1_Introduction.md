@@ -6,7 +6,7 @@ Mexiletine is a non-selective voltage-gated sodium channel blocker which belongs
 
 **Distribution**: It is 50% to 60% bound to plasma protein, with a volume of distribution of 5 to 7 l/kg.
 
-**Metabolism**: Mexiletine is mainly metabolized in the liver, the primary pathway being CYP2D6 metabolism, although it is also a substrate for CYP1A2. With involvement of CYP2D6, there can be either poor or extensive metabolizer phenotypes. The metabolic degradation proceeds via various pathways including aromatic and aliphatic hydroxylation, dealkylation, deamination and N-oxidation. Several of the resulting metabolites are submitted to further conjugation with glucuronic acid (phase II metabolism); among these are the major metabolites p-hydroxyMexiletine, hydroxy-methylMexiletine, and N-hydroxy-Mexiletine.
+**Metabolism**: Mexiletine is mainly metabolized in the liver, the primary pathway being CYP2D6 metabolism, although it is also a substrate for CYP1A2. With involvement of CYP2D6, there can be either poor or extensive metabolizer phenotypes. The metabolic degradation proceeds via various pathways including aromatic and aliphatic hydroxylation, dealkylation, deamination and N-oxidation. Several of the resulting metabolites are submitted to further conjugation with glucuronic acid (phase II metabolism); among these are the major metabolites p-Hydroxymexiletine, hydroxy-methylMexiletine, and N-hydroxy-Mexiletine.
 
 **Elimination**: In normal subjects, the plasma elimination half-life of mexiletine is approximately 10 to 12 hours. Approximately 10% is excreted unchanged by the kidney.
 
