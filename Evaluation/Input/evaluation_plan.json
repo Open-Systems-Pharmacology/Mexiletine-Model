@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Mexiletine",
-            "Path": "../Mexiletine-Model.json",
+            "Path": "../../Mexiletine-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
