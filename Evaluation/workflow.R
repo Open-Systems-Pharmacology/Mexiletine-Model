@@ -134,7 +134,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' Set watermark. If set, it will appear in all generated plots
   workflow$setWatermark(watermark)
 
-  #' Set the maximimum number of simulations per core if defined
+  #' Set the maximum number of simulations per core if defined
   if(!is.null(maxSimulationsPerCore)){
     workflow$simulate$settings$maxSimulationsPerCore <- maxSimulationsPerCore
   }
