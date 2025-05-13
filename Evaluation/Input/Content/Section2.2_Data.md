@@ -9,7 +9,7 @@ A literature search was performed to collect available information on physico-ch
 | Solubility (pH)<sup>+</sup>     | mg/mL    | 0.54<br />(7)         | [DrugBank DB00379](#5-references) | Aqueous Solubility                                           |
 | logD                            |          | 2.15 - 2.46           | [DrugBank DB00379](#5-references) | Distribution coefficient                                     |
 | fu<sup>+</sup>                  | %        | 50                    | [DrugBank DB00379](#5-references) | Fraction unbound in plasma                                   |
-| CYP1A2 CL                       | l/h      | 0.5 - 11              | [Labbé 2000](#5-references)       | Partial metabolic clearance of mexiletine to N-hydroxymexiletine |
+| CYP1A2 CL                       | l/h      | 0.5 - 11              | [Labbé 2000](#5-references)       | Partial metabolic clearance of mexiletine to N-Hydroxymexiletine |
 | CYP2D6 CL                       | l/h      | 12 - 13               | [Labbé 2000](#5-references)       | Difference in non-renal CL between CYP2D6 extensive and poor metabolizers |
 | Unspecific liver CL             | l/h      | 12 - 24               | [Labbé 2000](#5-references)       | Non-renal CL – CYP2D6 CL – CYP1A2 CL                         |
 | Renal elimination<sup>+</sup>   | l/h      | 1.8<sup>+</sup> - 2.1 | [Labbé 2000](#5-references)       | Renal clearance                                              |

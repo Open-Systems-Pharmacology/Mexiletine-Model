@@ -1,9 +1,9 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/v2.3/schemas/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/v3.3/schemas/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Mexiletine",
-            "Path": "../Mexiletine-Model.json",
+            "Path": "../../Mexiletine-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -123,79 +123,82 @@
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine 200 mg iv 5 min",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine 200 mg iv 30 min",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine HCL 100 mg po",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine 200 mg po",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine HCL 200 mg po",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine HCL 200 mg po asian",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine HCL 300 mg po",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine HCL 400 mg po",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine 400 mg po",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine HCL 600 mg po",
-                "SectionId": 331
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine 83.31 mg po bid EM prediction",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine 83.31 mg po bid PM prediction",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Mexiletine",
                 "Simulation": "Mexiletine HCL 100 mg po pop",
-                "SectionId": 332
+                "SectionReference": "model-verification"
             }
         ],
         "GOFMergedPlots": [
             {
                 "Title": "Mexiletine concentration in plasma",
-                "SectionId": 32,
+                "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
                     "GMFE",
                     "Measure"
                 ],
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
                 "Groups": [
                     {
                         "Caption": "Intravenous administration (model building)",
@@ -205,55 +208,37 @@
                                 "Project": "Mexiletine",
                                 "Simulation": "Mexiletine 200 mg iv 30 min",
                                 "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 200 mg iv 30 min",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction_gr2",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 200 mg iv 30 min",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Pentikainen1984.Mexiletine.200HCL.iv.recovery myocardial infarction_gr2",
+                                "ObservedData": [
+                                    "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction",
+                                    "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction_gr2",
+                                    "Pentikainen1984.Mexiletine.200HCL.iv.recovery myocardial infarction_gr2"
+                                ],
                                 "Color": "#00ffbf"
                             },
                             {
                                 "Project": "Mexiletine",
                                 "Simulation": "Mexiletine 200 mg iv 5 min",
                                 "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Campbell1978.Mexiletine.m.200.iv",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 200 mg iv 5 min",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Campbell1978-clinpharm.Mexiletine.200.iv.Mexiletine",
+                                "ObservedData": [
+                                    "Campbell1978.Mexiletine.m.200.iv",
+                                    "Campbell1978-clinpharm.Mexiletine.200.iv.Mexiletine"
+                                ],
                                 "Color": "#00ffbf"
                             }
                         ]
                     },
                     {
                         "Caption": "Oral administration (model building)",
-                        "Symbol": "Circle",
+                        "Symbol": "Square",
                         "OutputMappings": [
                             {
                                 "Project": "Mexiletine",
                                 "Simulation": "Mexiletine 200 mg po",
                                 "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Campbell1978.Mexiletine.m.200.po",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 200 mg po",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Joeres1987.Mexiletine.200.po",
+                                "ObservedData": [
+                                    "Campbell1978.Mexiletine.m.200.po",
+                                    "Joeres1987.Mexiletine.200.po"
+                                ],
                                 "Color": "#00ffbf"
                             },
                             {
@@ -298,47 +283,18 @@
                                 "ObservedData": "Pringle1986.Mexiletine.m.600 HCL.po",
                                 "Color": "#00ffbf"
                             },
-
                             {
                                 "Project": "Mexiletine",
                                 "Simulation": "Mexiletine 400 mg po",
                                 "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.1",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 400 mg po",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.2",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 400 mg po",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.3",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 400 mg po",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.4",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 400 mg po",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.5",
-                                "Color": "#00ffbf"
-                            },
-                            {
-                                "Project": "Mexiletine",
-                                "Simulation": "Mexiletine 400 mg po",
-                                "Output": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.6",
+                                "ObservedData": [
+                                    "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.1",
+                                    "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.2",
+                                    "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.3",
+                                    "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.4",
+                                    "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.5",
+                                    "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.6"
+                                ],
                                 "Color": "#00ffbf"
                             }
                         ]
@@ -364,7 +320,7 @@
                         ]
                     }
                 ]
-            }            
+            }
         ],
         "ComparisonTimeProfilePlots": [],
         "DDIRatioPlots": [],
@@ -375,71 +331,71 @@
             "Project": "Mexiletine",
             "Name": "Mexiletine",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Project": "Mexiletine",
             "Name": "Mexiletine tablet",
             "Type": "Formulation",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
-                    "Title": "2.1 Modeling Strategy",
+                    "Reference": "modeling-strategy",
+                    "Title": "Modeling Strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md"
                 },
                 {
-                    "Id": 22,
-                    "Title": "2.2 Data",
+                    "Reference": "data",
+                    "Title": "Data",
                     "Content": "Content/Section2.2_Data.md"
                 },
                 {
-                    "Id": 23,
-                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Reference": "model-parameters-and-assumptions",
+                    "Title": "Model Parameters and Assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
                 }
             ]
         },
         {
-            "Id": 3,
-            "Title": "3 Results and Discussion",
+            "Reference": "results-and-discussion",
+            "Title": "Results and Discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
             "Sections": [
                 {
-                    "Id": 31,
-                    "Title": "3.1 Final input parameters",
+                    "Reference": "final-input-parameters",
+                    "Title": "Final input parameters",
                     "Content": "Content/Input_table.md"
                 },
                 {
-                    "Id": 32,
-                    "Title": "3.2 Diagnostics Plots",
+                    "Reference": "diagnostics-plots",
+                    "Title": "Diagnostics Plots",
                     "Content": "Content/GOF_diagnostics.md"
                 },
                 {
-                    "Id": 33,
-                    "Title": "3.3 Concentration-Time Profiles",
+                    "Reference": "ct-profiles",
+                    "Title": "Concentration-Time Profiles",
                     "Content": "Content/Concentration_time_profiles.md",
                     "Sections": [
                         {
-                            "Id": 331,
-                            "Title": "3.3.1 Model Building",
+                            "Reference": "model-building",
+                            "Title": "Model Building",
                             "Content": "Content/Concentration_time_profiles_building.md"
                         },
                         {
-                            "Id": 332,
-                            "Title": "3.3.2 Model Verification",
+                            "Reference": "model-verification",
+                            "Title": "Model Verification",
                             "Content": "Content/Concentration_time_profiles_verification.md"
                         }
                     ]
@@ -447,18 +403,18 @@
             ]
         },
         {
-            "Id": 4,
-            "Title": "4 Conclusion",
+            "Reference": "conclusion",
+            "Title": "Conclusion",
             "Content": "Content/Section4_Conclusion.md"
         },
         {
-            "Id": 5,
-            "Title": "5 References",
+            "Reference": "main-references",
+            "Title": "References",
             "Content": "Content/References.md"
         },
         {
-            "Id": 6,
-            "Title": "6 Glossary",
+            "Reference": "glossary",
+            "Title": "Glossary",
             "Content": "Content/glossary.md"
         }
     ],

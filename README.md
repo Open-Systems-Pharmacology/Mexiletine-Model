@@ -12,7 +12,7 @@ This repository contains:
 **The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
 
 
-The presented PBPK model of mexiletine has been developed to be used in a PBPK Drug-DrugInteractions (DDI) network with mexiletine as a substrate and inhibitor of CYP1A2. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Ethinylestradiol-Model#references)]
+The presented PBPK model of mexiletine has been developed to be used in a PBPK Drug-Drug Interactions (DDI) network with mexiletine as a substrate and inhibitor of CYP1A2. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Ethinylestradiol-Model#references)]
 
 ## Contacts
 For your questions and comments about the models please create a new [issue](https://github.com/Open-Systems-Pharmacology/Mexiletine-Model/issues). A full publication about models presented is available at: https://www.mdpi.com/1999-4923/12/12/1191 .
